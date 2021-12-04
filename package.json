@@ -1,16 +1,15 @@
 {
-  "name": "twitchtvbot-template",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "twitch-first-bot",
+  "version": "0.0.0",
+  "description": "A Twitch Moderator Bot",
+  "main": "src",
   "scripts": {
+    "start": "node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "João Pedro <jpresende502@gmail.com>",
-  "license": "MIT",
+  "author": "Dev Pablo Winter",
   "dependencies": {
-    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
     "tmi.js": "^1.5.0"
   }
 }
